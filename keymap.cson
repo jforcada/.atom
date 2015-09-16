@@ -1,0 +1,16 @@
+'.editor':
+  'ctrl-n': 'core:move-down' # Fallback with shift: 'application:new-file'
+  'ctrl-p': 'core:move-up'
+  'ctrl-f': 'core:move-right' # Fallback with shift: 'find-and-replace:show'
+  'ctrl-b': 'core:move-left' # Fallback with shift: 'fuzzy-finder:toggle-buffer-finder'
+  'ctrl-a': 'editor:move-to-first-character-of-line'
+  #'ctrl-e': 'editor:move-to-end-of-line' # Fallback with shift: 'find-and-replace:use-selection-as-find-pattern'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-e': 'editor:move-to-end-of-line'
+
+#'.platform-linux atom-workspace.atomic-emacs atom-text-editor':
+#  'ctrl-e': 'editor:move-to-end-of-screen-line'
+
+#'.platform-win32 atom-workspace.atomic-emacs atom-text-editor':
+#  'ctrl-e': 'editor:move-to-end-of-screen-line'
